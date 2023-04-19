@@ -4,7 +4,7 @@ function main()
       wait(0)
       if sampIsDialogActive() and sampGetCurrentDialogId() == 26190 then
          wait(1000)
-         sampSendDialogResponse(26190, 1, -1, "")
+         sampCloseCurrentDialogWithButton(1)
       end
    end
 end
